@@ -1,0 +1,97 @@
+html,
+body,
+#root,
+.main_container{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+.main_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: .5s ease-in-out;
+}
+.main_container > button{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+.bgLight{
+    background-color: white;
+}
+.bgDark{
+    background-color: rgb(19, 18, 18);
+}
+.main_container > h1{
+    transition: .5s ease-in-out;
+}
+.main_container > .Light{
+    background-color: white;
+    box-shadow: 0 10px 20px #e4e2e2;
+    width: 35%;
+    height: 62px;
+    line-height: 62px;
+    border-radius: 15px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.main_container > .Dark{
+    background-color: #1d1c1c;
+    box-shadow: 0 10px 20px #0a0a0a;
+    width: 35%;
+    height: 62px;
+    line-height: 62px;
+    border-radius: 15px;
+    padding: 0 20px;
+    color: #b3b3b3;
+    box-sizing: border-box;
+}
+
+.lightBtn{
+    color: white;
+    width: 70px;
+    height: 30px;
+    background: rgb(29, 28, 28);
+    border-radius: 50px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+.lightBtn .switch{
+    background-color: white;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    transition: 0.5s all ease;
+}
+.darkBtn{
+    color: white;
+    width: 70px;
+    height: 30px;
+    background: rgb(235, 232, 232);
+    border-radius: 50px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+.darkBtn .switch{
+    background-color: rgb(32, 32, 32);
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: 41px;
+
+    transition: 0.5s all ease;
+}
+.light-color{
+    color: black;
+    background-color: rgb(219, 219, 219);
+}
