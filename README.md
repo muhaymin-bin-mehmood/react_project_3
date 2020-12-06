@@ -1,4 +1,4 @@
-# Created Facebook Post with React Single Component
+# Created LIGHT and DARK mode with react states
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -6,4 +6,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### `View Project`
 
 Runs the app in the development mode.\
-Open [https://react-reusable-component.web.app/](https://react-reusable-component.web.app/) to view it in the browser...
+Open [https://lightndark-with-react-states.web.app/](https://lightndark-with-react-states.web.app/) to view it in the browser...
